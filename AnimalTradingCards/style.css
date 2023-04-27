@@ -1,0 +1,51 @@
+body {
+    background-color: beige;
+    display: flex;
+}
+.outer-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(240, 204, 128);
+    margin: auto;
+    width: 320px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+}
+.animal-name {
+    font: bold;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+img {
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+.desc-container {
+    background-color: rgb(239, 255, 233);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.animal-fact {
+    padding: 10px auto;
+    
+}
+span {
+    font-weight: bold;
+    line-height: 10px;
+}
+.list-items {
+    list-style: none;
+    background-color: rgb(255, 218, 82);
+    padding: 10px;
+    border-radius: 5px;
+    font: normal 12px;
+    box-shadow: 0 0 0 2px rgb(183, 182, 182);
+}
+.description {
+    padding: 3px;
+    font-size: 14px;
+}
