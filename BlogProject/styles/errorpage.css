@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: #F9F5EB;
+  height: 100vh;
+  width: auto;
+}
+
+.text {
+  font-size: 200%;
+  padding-right: 5%;
+}
+
+.text a {
+  padding: 10px 15px;
+  font-size: 2vh;
+  text-decoration: none;
+  border: 3px solid #EA5455;
+  border-radius: 10px;
+  color: inherit;
+}
+
+.text a:hover {
+  background-color: #EA5455;
+  color: white;
+}
+
+img {
+  width: 20%;
+  height: auto;
+}

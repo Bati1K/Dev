@@ -1,0 +1,134 @@
+ /********** screen bigger than 770px  *************/
+ body {
+    width: 100%;
+    margin: auto;
+    background-color: #F9F5EB;
+    font-size: 15px;
+
+}
+
+.headline {
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("../image/headlinebg.png") no-repeat center / cover fixed;
+
+}
+
+.headline-img {
+    padding: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.feature-title {
+    margin: 30px auto;
+    padding: 0 10px;
+    max-width: 1000px;
+
+
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+    max-width: 1000px;
+    margin: 10px auto;
+    margin-bottom: 80px;
+}
+
+.article-column {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    position: relative;
+}
+
+.post-container {
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(236, 236, 236);
+    padding: 10px;
+    padding-bottom: 45px;
+    border-radius: 8px;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.post-container:hover {
+    box-shadow: 2px 2px 5px 1px gray;
+}
+
+#ex-post {
+    border: 4px solid #EA5455;
+}
+
+.post-container .post-tag {
+    margin: 20px auto;
+    font-size: 14px;
+    color: #EA5455;
+
+}
+
+.post-container .post-title {
+    color: #002B5B;
+    height: 15%;
+    margin: 10px auto;
+    overflow: hidden;
+
+}
+
+.auth-date {
+    margin: 2px 0px;
+}
+
+.post-container .parg-container {
+    overflow: hidden;
+    margin: 1px;
+    height: 30px;
+    padding: 10px;
+    border-top: 2px solid #efefef;
+
+}
+
+.post-container .rdt {
+    color: gray;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.article-column .read-btn a {
+    text-decoration: none;
+    color: inherit
+}
+
+/*            end of blog post container*/
+
+.aside-column {
+    background: rgb(255, 255, 255);
+    height: 40vh;
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(240, 240, 240);
+}
+
+.aside-column ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+.aside-column ul li {
+    margin: 2px;
+    padding: 5px 10px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 6px;
+    background: rgb(235, 235, 235);
+}
+
+.aside-column ul li:hover {
+    background-color: #EA5455;
+    color: white;
+}

@@ -1,0 +1,99 @@
+
+   /******* screen between 580 to 770px i.g ipad *****/
+   @media (min-width: 480px) and (max-width: 770px) {
+       body {
+           font-size: 14px;
+       }
+
+       .headline-img {
+           padding: 60px;
+           color: rgb(255, 255, 255);
+           font-size: 16px;
+           text-align: center;
+       }
+
+       .feature-title {
+           padding: 0px;
+           padding-left: 10px;
+       }
+
+       .feature-title h1 {
+           font-size: 18px;
+       }
+
+       .main-container {
+           display: grid;
+           grid-template-columns: 1fr;
+       }
+
+       .article-column {
+           padding: 10px;
+           display: grid;
+           grid-template-columns: repeat(2, 1fr);
+           grid-gap: 10px;
+           position: relative;
+       }
+
+       .aside-column {
+           order: -1;
+           height: 80%;
+       }
+   }
+
+   /*** END OF STYLE ***/
+
+
+   /******* mobile **********/
+   @media (max-width: 480px) {
+       body {
+           font-size: 12px;
+       }
+
+       header {
+           background: #002B5B;
+           margin: 10px auto;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+
+       }
+
+       .nav-logo {
+           font-size: 16px;
+       }
+
+       .headline-img {
+           padding: 60px;
+           color: rgb(255, 255, 255);
+           font-size: 16px;
+           text-align: center;
+       }
+
+       .feature-title {
+           padding: 0px;
+       }
+
+       .feature-title h1 {
+           font-size: 16px;
+       }
+
+       .main-container {
+           display: grid;
+           grid-template-columns: 1fr;
+       }
+
+       .article-column {
+           padding: 10px;
+           display: grid;
+           grid-template-columns: repeat(1, 1fr);
+           grid-gap: 10px;
+           position: relative;
+       }
+
+       .aside-column {
+           order: -1;
+           height: 80%;
+       }
+   }
+
+   /*** END OF STYLE ***/

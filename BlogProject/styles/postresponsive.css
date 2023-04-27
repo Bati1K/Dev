@@ -1,0 +1,15 @@
+/******** small screens ***********/
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        margin: auto;
+    }
+}
+
+/******** medium viewport **********/
+@media (min-width: 480px) and (max-width: 770px) {
+    body {
+        font-size: 14px;
+        margin: auto;
+    }
+}

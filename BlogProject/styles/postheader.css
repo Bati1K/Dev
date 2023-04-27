@@ -1,0 +1,29 @@
+
+/******** Header style *********/
+header {
+  background-color: #002B5B;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 80%;
+  color: white
+}
+
+.sub-link,
+.home-btn {
+  padding: 4px 8px;
+  border: 2px solid #EA5455;
+  border-radius: 7px;
+}
+
+.home-btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
