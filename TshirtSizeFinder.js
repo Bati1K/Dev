@@ -36,4 +36,4 @@ if ((shirtWidth >= 18 && shirtwidth < 20) &&
   console.log("N/A: size don't match."); 
 } else {
   console.log("Don't have it.")
-}
+} 
