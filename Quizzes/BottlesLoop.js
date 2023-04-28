@@ -34,7 +34,7 @@ while ( num >=1 /* your stop condition goes here */) {
         console.log(num + " bottles of juice on the wall! "
                     + num + " bottles of juice! Take one down, pass it around... "
                     + (num-1) + " bottle of juice on the wall!");
-    }
+    } 
     // All other iterations. Note occurances of bottleS, bottleS, bottleS
     else {
         console.log(num + " bottles of juice on the wall! "
