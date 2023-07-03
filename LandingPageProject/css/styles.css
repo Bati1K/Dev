@@ -80,7 +80,7 @@ section {
     border: solid 1px white;
     border-radius: 5px;
 }
-.navbar__menu li:hover {
+.navbar__menu li:hover { 
     background-color:darkcyan ;
     cursor: pointer;
 }
