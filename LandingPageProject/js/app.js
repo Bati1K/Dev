@@ -98,3 +98,16 @@ function scrollToSection(event) {
 // Set sections as active
 window.addEventListener("scroll", setActiveSection);
 
+// Get all the navigation items
+const navItems = document.querySelectorAll('.navbar__menu li');
+// Add click event listener to each navigation item
+navItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    // Remove "active" class from all navigation items
+    navItems.forEach((navItem) => {
+      navItem.classList.remove('active');
+    });
+    // Add "active" class to the clicked navigation item
+    item.classList.add('active');
+  });
+}); 

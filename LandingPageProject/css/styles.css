@@ -84,7 +84,10 @@ section {
     background-color:darkcyan ;
     cursor: pointer;
 }
-
+.navbar__menu li.active {
+    background-color:rgb(254, 250, 246) ;
+    color: rgb(2, 14, 14) ;;
+}
 .navbar__menu .menu__link {
     display: block;
     padding: 1em;
